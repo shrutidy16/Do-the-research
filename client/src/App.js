@@ -1,5 +1,6 @@
 import './App.css';
 import Home from './components/home/Home'
+import Login from './components/login/Login'
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,7 +13,7 @@ function App() {
           <Routes>
           
             <Route path='/' element={<Home />} />
-           
+            <Route path='/login' element={<Login />} />
           </Routes>
     </Router>
   );
